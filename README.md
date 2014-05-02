@@ -1,4 +1,4 @@
-MoreOnCode.github.io
-====================
+groundh0g.github.io
+===================
 
-Blog for More on Code
+My personal blog at blog.moreoncode.com

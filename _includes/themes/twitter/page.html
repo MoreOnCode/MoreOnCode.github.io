@@ -1,0 +1,22 @@
+<div class="row-fluid">
+  <div class="span12">
+  	<table border="0" cellpadding="0" cellspacing="0" style="width:100%;">
+  		<tr>
+  			<td style="width:170px; vertical-align:top;">
+				{% include MOC/sidebar_logo %}
+				{% include MOC/sidebar_ads_amazon %}
+			</td>
+			<td style="padding-left:20px; padding-right:20px; vertical-align:top;">
+				<div class="page-header">
+					<h1>{{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
+				</div>
+				{{ content }}
+			</td>
+			<td style="width:170px; vertical-align:top;">
+				{% include MOC/sidebar_recent_posts %}
+				{% include MOC/sidebar_social %}
+			</td>
+		</tr>
+	</table>
+  </div>
+</div>
